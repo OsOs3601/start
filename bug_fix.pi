@@ -1,0 +1,6 @@
+echo "fixing a small bug" >> pi
+git add pi
+git commit -m "fix: resolve memory leak in pi script"
+
+ (Annotated Tag)
+git tag -a v1.0.1 -m "Patch release v1.0.1"
